@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js_04_kadai</title>
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="logo"><i class="fab fa-twitter"></i></div>
+        <div class="nav">
+          <a href=""><i class="fas fa-home"></i>ホーム</a>
+          <a href=""><i class="fas fa-hashtag"></i>話題を検索</a>
+          <a href=""><i class="far fa-bell"></i>通知</a>
+          <a href=""><i class="far fa-envelope"></i>メッセージ</a>
+          <a href=""><i class="far fa-user"></i>プロフィール</a>
+          <a href=""><i class="fas fa-ellipsis-h"></i>もっと見る</a>
+        </div>
+        <div class="nav-btn"><a href="">ツイートする</a></div>
+      </header>
+      <main>
+        <h2>ホーム</h2>
+        <div class="post-wrap">
+          <div class="post-icon"></div>
+          <div class="post-input">
+            <input
+              type="text"
+              class="tweet"
+              placeholder="いまどうしてる？"
+              maxlength="140"
+            />
+          </div>
+        </div>
+        <div class="post-send"><button class="send">ツイートする</button></div>
+        <div class="post-tweet"></div>
+      </main>
+      <sub>
+        <div class="search">
+          <input type="text" placeholder="キーワード検索" />
+        </div>
+        <div class="rec">
+          <h2>おすすめユーザー</h2>
+          <div class="rec-box">
+            <div class="rec-icon"></div>
+            <div class="rec-name">
+              ライブドアニュース<span>@livedoornews</span>
+            </div>
+            <div class="rec-btn"><a href="">フォロー</a></div>
+          </div>
+          <div class="rec-box">
+            <div class="rec-icon"></div>
+            <div class="rec-name">日本経済新聞 電子版<span>@nikkei</span></div>
+            <div class="rec-btn"><a href="">フォロー</a></div>
+          </div>
+          <div class="rec-more"><a href="">さらに表示</a></div>
+        </div>
+        <div class="rec">
+          <h2>いまどうしてる？</h2>
+          <div class="rec-box">
+            <div class="rec-name">
+              <span>日本のトレンド</span>ELLEGARDEN<span
+                >2,921件のツイート</span
+              >
+            </div>
+          </div>
+          <div class="rec-box">
+            <div class="rec-name">
+              <span>全国のニュース·2 時間前</span
+              >災害に便乗したデマに惑わされないようにするには
+            </div>
+          </div>
+          <div class="rec-box">
+            <div class="rec-name"><span>日本のトレンド</span>津波の映像</div>
+          </div>
+          <div class="rec-box">
+            <div class="rec-name">
+              <span>日本のトレンド</span>#東日本大震災から10年
+            </div>
+          </div>
+          <div class="rec-box">
+            <div class="rec-name">
+              <span>トレンド</span>人身事故<span>3,628件のツイート</span>
+            </div>
+          </div>
+          <div class="rec-more"><a href="">さらに表示</a></div>
+        </div>
+        <div class="note">
+          <a href="">利用規約</a><a href="">プライバシーポリシー</a
+          ><a href="">Cookieのポリシー</a><a href="">広告情報</a>
+          <a href="">もっと見る</a>
+          <span>© 2021 Twitter, Inc.</span>
+        </div>
+      </sub>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

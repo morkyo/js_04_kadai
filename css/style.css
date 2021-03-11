@@ -1,0 +1,226 @@
+input[type="text"] {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  background: none;
+}
+body {
+  color: #333;
+}
+.wrap {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+header {
+  width: 270px;
+}
+.logo {
+  margin: 10px 0;
+  font-size: 30px;
+  color: #1da1f2;
+}
+.nav a {
+  display: block;
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.nav a i {
+  margin-right: 20px;
+  font-size: 23px;
+}
+.nav-btn a {
+  display: block;
+  width: 210px;
+  margin: 15px auto 0;
+  padding: 15px 0;
+  text-align: center;
+  background: #1da1f2;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+main {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 20px;
+  border-right: 1px solid #e6e6e6;
+  border-left: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+main h2 {
+  margin-top: 20px;
+  padding: 0 0 20px 10px;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 20px;
+  font-weight: bold;
+}
+.post-wrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.post-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 15px 0 10px;
+  background: url(../img/cat.jpg) no-repeat center;
+  background-size: cover;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.post-input {
+  width: calc(100% - 65px);
+}
+.post-input input {
+  display: block;
+  width: 98%;
+  height: 90px;
+  font-size: 18px;
+}
+.post-send {
+  padding: 0 20px 10px 0;
+  border-bottom: 1px solid #e6e6e6;
+  text-align: right;
+}
+.post-send button {
+  display: inline-block;
+  width: 122px;
+  padding: 10px 0;
+  text-align: center;
+  background: #ddd;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+}
+.post-tweet {
+  border-top: 15px solid #f7f9fa;
+}
+.tweet-wrap {
+  position: relative;
+  padding: 15px 15px 15px 75px;
+  border-top: 1px solid #e6e6e6;
+  box-sizing: border-box;
+}
+.tweet-icon {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: url(../img/cat.jpg) no-repeat center;
+  background-size: cover;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.tweet-name {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+.tweet-name span {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #b0b0b0;
+}
+.tweet-desc {
+  font-size: 15px;
+  line-height: 1.4;
+}
+sub {
+  width: 350px;
+  margin-top: 5px;
+}
+.search input {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  background: #ebeef0;
+  font-size: 14px;
+}
+.rec {
+  margin-bottom: 20px;
+  padding: 20px 0;
+  border-radius: 10px;
+  background: rgb(247 249 250);
+}
+.rec h2 {
+  padding: 0 20px 15px 15px;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 20px;
+  font-weight: bold;
+}
+.rec-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #e6e6e6;
+  box-sizing: border-box;
+}
+.rec-icon {
+  width: 50px;
+  height: 50px;
+  background: url(../img/cat.jpg) no-repeat center;
+  background-size: cover;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.rec-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+.rec-name span {
+  display: block;
+  margin: 5px 0;
+  font-size: 14px;
+  font-weight: normal;
+  color: #b0b0b0;
+}
+.rec-btn a {
+  display: block;
+  width: 90px;
+  padding: 8px 0;
+  border: 1px solid #1da1f2;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #1da1f2;
+  text-decoration: none;
+}
+.rec-more {
+  padding: 20px 15px 0;
+}
+.rec-more a {
+  font-size: 15px;
+  color: #1da1f2;
+  text-decoration: none;
+}
+.note a,
+.note span {
+  display: inline-block;
+  margin: 0 10px 10px 0px;
+  font-size: 13px;
+  color: #777;
+  text-decoration: none;
+}
+
+.imgSample {
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+}
